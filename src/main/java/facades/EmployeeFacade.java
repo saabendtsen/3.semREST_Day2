@@ -65,6 +65,7 @@ public class EmployeeFacade {
         } finally {
             em.close();
         }
+
     }
 
     public Employee getEmployeeWithHighestSalary() {
