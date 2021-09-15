@@ -31,7 +31,6 @@ class EmployeeFacadeTest {
 
     @Test
     void getEmployeeByName() {
-        get("/employee/name/Irene").then().statusCode(200).assertThat().body("name", EqualTo("Irene"));
     }
 
     @Test
